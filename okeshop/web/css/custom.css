@@ -1,0 +1,43 @@
+body {
+    background-color: white !important;
+}
+/* Ganti background panel wrapper */
+.panel.wrapper {
+    background-color: #000000;
+    padding: 15px;
+    border: 1px solid #ddd;
+    color: white;
+}
+
+/* Ubah warna teks link di header */
+.panel.wrapper .panel.header .header.links a {
+    color: #ff0000;
+    font-weight: bold;
+    color: white;
+}
+
+/* Hover effect */
+.panel.wrapper .panel.header .header.links a:hover {
+    color: #00f;
+    text-decoration: underline;
+}
+
+.satu {
+    color: rgb(95, 58, 175);
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    background-image: url('../css/source/HP.jpg');
+    width: 100%;         
+    max-width: 1920px;
+}
+
+h1.page-title .base {
+    color: rgb(0, 0, 0) !important;
+    font-size: 40px !important;
+}
+
+body.page-header .panel.wrapper { 
+    background-color: #f5f5f5; 
+}
+
